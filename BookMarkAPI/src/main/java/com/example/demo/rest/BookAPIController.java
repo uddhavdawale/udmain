@@ -19,4 +19,12 @@ public class BookAPIController
 		return "post data submitted ..";
 	}
 	
+	
+	@GetMapping("/delet")
+	public String delet()
+	{
+		return "Data has been deleted..";
+		
+	}
+	
 }
